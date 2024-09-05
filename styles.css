@@ -1,9 +1,9 @@
-body {
-    font-family: 'Montserrat', sans-serif;
-    background-color: lightblue;
-    color: lightblueblue;
-}
 
+body{
+  font-family:'Take a Break!', sans-serif;
+  background-color: lightblue;
+  color: rgb(4, 4, 91);
+}
 
 .headers {
     display: flex;
