@@ -1,0 +1,53 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: lightblue;
+    color: darkblue;
+}
+
+hr {
+    border: 1px solid darkblue;
+    width: 500px;
+}
+
+.headers {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+img {
+    height: 250px;
+    border-radius: 40px;
+    box-shadow: 10px 10px 30px rgb(45, 45, 118);
+}
+
+.image-container {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-top:50px;
+    margin-bottom:50px;
+}
+
+.summary {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding:0px 90px;
+}
+
+.requirements {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+a {
+    color: rgb(43, 98, 226);
+    text-decoration: none;
+}
+
+a:hover {
+    color:rgb(205, 36, 185);
+    text-decoration: underline wavy;
+}
