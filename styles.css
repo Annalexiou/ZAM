@@ -12,6 +12,7 @@ body{
     padding:100px;
 }
 
+<<<<<<< HEAD
 .text {
   display:flex;
   flex-direction: column;
@@ -27,4 +28,20 @@ body{
 .carousel-inner{
   height: 10%;
   width: 50%;
+=======
+/* .carousel-inner{
+  height:100%;
+  width: 100%;
+}
+ */
+.carousel .item {
+  height: 300px;
+}
+
+.item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+>>>>>>> f00347175d6fb05b12054924914780a94cf5b57e
 }
