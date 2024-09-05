@@ -54,3 +54,7 @@ body{
   flex-direction: column;
   align-items: center;
 }
+
+.img {
+  align-items: center;
+}
