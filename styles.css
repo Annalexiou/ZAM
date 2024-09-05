@@ -1,28 +1,46 @@
-
 body{
+  background-color: rgb(176, 214, 226);
   font-family:'Take a Break!', sans-serif;
-  background-color: lightblue;
   color: rgb(4, 4, 91);
+  margin-top:20px;
+  margin-left:300px;
+  margin-right:300px;
 }
+
 
 .headers {
     display: flex;
     flex-direction: column;
     align-items:center;
-    padding:100px;
+    padding-top:50px;
+    padding-bottom:20px;
+    font-weight: bold;
+    font-size: 32px;
 }
 
 
 .text {
   display:flex;
   flex-direction: column;
+  font-size: 20px;
+  padding:10px;
   
+}
+
+.text2 {
+  display:flex;
+  flex-direction:column;
+  align-items: center;
 }
 
 .starters {
   display:flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
+  font-size: 24px;
+  font-weight: lighter;
+  padding-bottom:30px;
 }
 
 .carousel-inner{
@@ -55,6 +73,45 @@ body{
   align-items: center;
 }
 
-.img {
+.container {
+  display:flex;
+}
+
+img{
+  padding: 20px;
+}
+
+hr{
+  color:rgb(3, 3, 87);
+  height: 30px;
+  border-width: 2px;
+  font-weight: bolder;
+}
+
+.images{
+  display:flex;
+  flex-direction: column;
   align-items: center;
+  padding-bottom: 20px;
+}
+
+.circle {
+  width: 100px; /* Initial diameter */
+  height: 100px; /* Initial diameter */
+  background-color: #007bff; /* Blue color */
+  border-radius: 50%; /* Makes the div a circle */
+  animation: breathe 4s infinite; /* Apply animation */
+}
+
+/* Define the breathing animation */
+@keyframes breathe {
+  0% {
+      transform: scale(1); /* Initial scale */
+  }
+  50% {
+      transform: scale(1.5); /* Scale up */
+  }
+  100% {
+      transform: scale(1); /* Return to initial scale */
+  }
 }
