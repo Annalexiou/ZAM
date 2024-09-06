@@ -152,17 +152,18 @@ hr{
 
 }
 
+.button-container {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  text-align:center;
+  padding:50px;
+}
 .my-button {
-  background-color: rgb(187, 223, 255);
+  background-color: blue;
   color: white;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  display:flex;
-  flex-direction:column;
-  align-items:center;
-  text-align:center;
-  
-
 }
