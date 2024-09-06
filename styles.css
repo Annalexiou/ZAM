@@ -124,33 +124,6 @@ hr{
   padding:50px;
 }
 
-.inhale,.exhale {
-  margin-top:20px;
-  font-size:20px;
-  font-weight:bold;
-  color:  rgb(2, 2, 105);
-  opacity:0;
-  animation: fade-in-out 8s infinite;
-}
-
-.inhale {
-  animation-delay: 0s;
-  padding-top: 50px;
-}
-
-.exhale {
-  animation-delay: 4s;
-}
-
-@keyframes fade-in-out {
-  0%, 50% {
-    opacity: 1;
-  }
-  52%, 99% {
-    opacity:0;
-  }
-
-}
 
 .button-container {
   display:flex;
